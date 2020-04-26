@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-random-animation="false" data-animation="19">
+<html lang="en" data-random-animation="false" data-animation="11">
     <head>
 
         <!--Meta Tags-->
@@ -29,13 +29,14 @@
         <!--Favicons-->
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122650090-3"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'UA-122650090-3');
-        </script>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122650090-3"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-122650090-3');
+		</script>
 
     </head>
 
@@ -105,12 +106,12 @@
                         <!--Nav Menus-->
                         <nav class="nav-menu">
                             <ul>
-                                <li><a href="index-dark-particles2.html#home" class="pt-link active"><span class="nav-menu-icon"><i class="lnr lnr-home"></i></span>Home </a> </li>
-                                <li><a href="index-dark-particles2.html#about" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-user"></i></span>About Me</a></li>
-                                <li><a href="index-dark-particles2.html#resume" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-license"></i></span>Resume</a></li>
-                                <li><a href="index-dark-particles2.html#portfolio" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-briefcase"></i></span>Portfolio</a></li>
-                                <li><a href="index-dark-particles2.html#blog" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-book"></i></span>Blog</a></li>
-                                <li><a href="index-dark-particles2.html#contact" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-envelope"></i></span>Contact</a></li>
+                                <li><a href="index-dark-slider.html#home" class="pt-link active"><span class="nav-menu-icon"><i class="lnr lnr-home"></i></span>Home </a> </li>
+                                <li><a href="index-dark-slider.html#about" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-user"></i></span>About Me</a></li>
+                                <li><a href="index-dark-slider.html#resume" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-license"></i></span>Resume</a></li>
+                                <li><a href="index-dark-slider.html#portfolio" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-briefcase"></i></span>Portfolio</a></li>
+                                <li><a href="index-dark-slider.html#blog" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-book"></i></span>Blog</a></li>
+                                <li><a href="index-dark-slider.html#contact" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-envelope"></i></span>Contact</a></li>
                             </ul>
                         </nav>
 
@@ -118,11 +119,11 @@
                         <div class="nav-footer">
                             <!--Social Links-->
                             <ul class="social">
-                                <li><a href="index-dark-particles2.html#"><i class="fab fa-facebook-square"></i></a></li>
-                                <li><a href="index-dark-particles2.html#"><i class="fab fa-twitter-square"></i></a></li>
-                                <li><a href="index-dark-particles2.html#"><i class="fab fa-youtube-square"></i></a></li>
-                                <li><a href="index-dark-particles2.html#"><i class="fab fa-dribbble-square"></i></a></li>
-                                <li><a href="index-dark-particles2.html#"><i class="fab fa-behance-square"></i></a></li>
+                                <li><a href="index-dark-slider.html#"><i class="fab fa-facebook-square"></i></a></li>
+                                <li><a href="index-dark-slider.html#"><i class="fab fa-twitter-square"></i></a></li>
+                                <li><a href="index-dark-slider.html#"><i class="fab fa-youtube-square"></i></a></li>
+                                <li><a href="index-dark-slider.html#"><i class="fab fa-dribbble-square"></i></a></li>
+                                <li><a href="index-dark-slider.html#"><i class="fab fa-behance-square"></i></a></li>
                             </ul>
                             <!--Copyright Text-->
                             <div class="copy">
@@ -140,9 +141,18 @@
             <div id="main" class="site-main">
 
                 <!--Banner Section Start-->
-                <section id="home" class="banner-section pt-page" style="background-image: url('img/background/home-bg.jpg')">
+                <section id="home" class="banner-section pt-page">
 
-                    <div id="particles-js"></div>
+                    <div class="banner-slider">
+                        <div id="slides">
+                            <div class="slides-container">
+                                <!--Slide 1-->
+                                <img src="img/slider/img-1.jpg" alt="">
+                                <!--Slide 2-->
+                                <img src="img/slider/img-2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="banner-content">
                         <!--Banner Text-->
@@ -203,7 +213,7 @@
                                         <li><span class="title">Freelance</span><span class="value">Available</span></li>
                                     </ul>
                                     <div class="resume-button mt-30">
-                                        <a class="btn-main" href="index-dark-particles2.html#">Download Resume</a>
+                                        <a class="btn-main" href="index-dark-slider.html#">Download Resume</a>
                                     </div>
                                 </div>
                             </div>
@@ -268,63 +278,63 @@
 
                                 <!--Client Logo-->
                                 <div class="client-logo">
-                                    <a href="index-dark-particles2.html#">
+                                    <a href="index-dark-slider.html#">
                                         <img src="img/clients/client-01.png" alt="">
                                     </a>
                                 </div>
 
                                 <!--Client Logo-->
                                 <div class="client-logo">
-                                    <a href="index-dark-particles2.html#">
+                                    <a href="index-dark-slider.html#">
                                         <img src="img/clients/client-02.png" alt="">
                                     </a>
                                 </div>
 
                                 <!--Client Logo-->
                                 <div class="client-logo">
-                                    <a href="index-dark-particles2.html#">
+                                    <a href="index-dark-slider.html#">
                                         <img src="img/clients/client-03.png" alt="">
                                     </a>
                                 </div>
 
                                 <!--Client Logo-->
                                 <div class="client-logo">
-                                    <a href="index-dark-particles2.html#">
+                                    <a href="index-dark-slider.html#">
                                         <img src="img/clients/client-04.png" alt="">
                                     </a>
                                 </div>
 
                                 <!--Client Logo-->
                                 <div class="client-logo">
-                                    <a href="index-dark-particles2.html#">
+                                    <a href="index-dark-slider.html#">
                                         <img src="img/clients/client-05.png" alt="">
                                     </a>
                                 </div>
 
                                 <!--Client Logo-->
                                 <div class="client-logo">
-                                    <a href="index-dark-particles2.html#">
+                                    <a href="index-dark-slider.html#">
                                         <img src="img/clients/client-06.png" alt="">
                                     </a>
                                 </div>
 
                                 <!--Client Logo-->
                                 <div class="client-logo">
-                                    <a href="index-dark-particles2.html#">
+                                    <a href="index-dark-slider.html#">
                                         <img src="img/clients/client-07.png" alt="">
                                     </a>
                                 </div>
 
                                 <!--Client Logo-->
                                 <div class="client-logo">
-                                    <a href="index-dark-particles2.html#">
+                                    <a href="index-dark-slider.html#">
                                         <img src="img/clients/client-08.png" alt="">
                                     </a>
                                 </div>
 
                                 <!--Client Logo-->
                                 <div class="client-logo">
-                                    <a href="index-dark-particles2.html#">
+                                    <a href="index-dark-slider.html#">
                                         <img src="img/clients/client-09.png" alt="">
                                     </a>
                                 </div>
@@ -1048,9 +1058,10 @@
         <script src="js/main-demo.js"></script>
 
         <script>
-            //Particles
-            particlesJS.load('particles-js', 'js/particles1.json', function() {
-                console.log('callback - particles.js config loaded');
+            //Super Slider
+            $('#slides').superslides({
+                animation: 'fade',
+                play: 3000
             });
         </script>
 
