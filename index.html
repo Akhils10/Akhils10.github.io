@@ -106,11 +106,25 @@
             <div id="main" class="site-main">
 
                 <!--Banner Section Start-->
-                <section id="home" class="banner-section pt-page" style="background-image: url('img/background/laptop.jpg')">
+                <section id="home" class="banner-section pt-page">
 
                     <div id="particles-js"></div>
 
+                    <div class="banner-slider">
+                        <div id="slides">
+                            <div class="slides-container">
+                                <!--Slide 1-->
+                                <img src="img/slider/img-1.jpg" alt="">
+                                <!--Slide 2-->
+                                <img src="img/slider/img-2.jpg" alt="">
+                                <!--Slide 3-->
+                                <img src="img/slider/img-3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="banner-content">
+                        
                         <!--Banner Text-->
                         <h1 class="mb-20">Philip <span>Akhils</span></h1>
 
@@ -926,6 +940,11 @@ Helped several developers find answers to some of their problems / challenges as
             //Particles
             particlesJS.load('particles-js', 'js/particles1.json', function() {
                 console.log('callback - particles.js config loaded');
+            });
+
+            //Super Slider
+            $('#slides').superslides({
+                animation: 'fade',
             });
         </script>
 
